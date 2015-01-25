@@ -1,0 +1,2771 @@
+CIAccordionFoldTransition, CIAdditionCompositing, CIAffineClamp, CIAffineTile, CIAffineTransform, CIAreaHistogram, CIAztecCodeGenerator, CIBarsSwipeTransition, CIBlendWithAlphaMask, CIBlendWithMask, CIBloom, CIBumpDistortion, CIBumpDistortionLinear, CICheckerboardGenerator, CICircleSplashDistortion, CICircularScreen, CICode128BarcodeGenerator, CIColorBlendMode, CIColorBurnBlendMode, CIColorClamp, CIColorControls, CIColorCrossPolynomial, CIColorCube, CIColorCubeWithColorSpace, CIColorDodgeBlendMode, CIColorInvert, CIColorMap, CIColorMatrix, CIColorMonochrome, CIColorPolynomial, CIColorPosterize, CIConstantColorGenerator, CIConvolution3X3, CIConvolution5X5, CIConvolution9Horizontal, CIConvolution9Vertical, CICopyMachineTransition, CICrop, CIDarkenBlendMode, CIDifferenceBlendMode, CIDisintegrateWithMaskTransition, CIDissolveTransition, CIDivideBlendMode, CIDotScreen, CIEightfoldReflectedTile, CIExclusionBlendMode, CIExposureAdjust, CIFalseColor, CIFlashTransition, CIFourfoldReflectedTile, CIFourfoldRotatedTile, CIFourfoldTranslatedTile, CIGammaAdjust, CIGaussianBlur, CIGaussianGradient, CIGlassDistortion, CIGlideReflectedTile, CIGloom, CIHardLightBlendMode, CIHatchedScreen, CIHighlightShadowAdjust, CIHistogramDisplayFilter, CIHoleDistortion, CIHueAdjust, CIHueBlendMode, CILanczosScaleTransform, CILightenBlendMode, CILightTunnel, CILinearBurnBlendMode, CILinearDodgeBlendMode, CILinearGradient, CILinearToSRGBToneCurve, CILineScreen, CILuminosityBlendMode, CIMaskToAlpha, CIMaximumComponent, CIMaximumCompositing, CIMinimumComponent, CIMinimumCompositing, CIModTransition, CIMultiplyBlendMode, CIMultiplyCompositing, CIOverlayBlendMode, CIPerspectiveCorrection, CIPhotoEffectChrome, CIPhotoEffectFade, CIPhotoEffectInstant, CIPhotoEffectMono, CIPhotoEffectNoir, CIPhotoEffectProcess, CIPhotoEffectTonal, CIPhotoEffectTransfer, CIPinchDistortion, CIPinLightBlendMode, CIPixellate, CIQRCodeGenerator, CIRadialGradient, CIRandomGenerator, CISaturationBlendMode, CIScreenBlendMode, CISepiaTone, CISharpenLuminance, CISixfoldReflectedTile, CISixfoldRotatedTile, CISmoothLinearGradient, CISoftLightBlendMode, CISourceAtopCompositing, CISourceInCompositing, CISourceOutCompositing, CISourceOverCompositing, CISRGBToneCurveToLinear, CIStarShineGenerator, CIStraightenFilter, CIStripesGenerator, CISubtractBlendMode, CISwipeTransition, CITemperatureAndTint, CIToneCurve, CITriangleKaleidoscope, CITwelvefoldReflectedTile, CITwirlDistortion, CIUnsharpMask, CIVibrance, CIVignette, CIVignetteEffect, CIVortexDistortion, CIWhitePointAdjust]
+[CIAttributeFilterDisplayName: Accordion Fold Transition, inputBottomHeight: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputNumberOfFolds: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 3;
+CIAttributeMax = 50;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 10;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIAccordionFoldTransition, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputFoldShadowAmount: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.1";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Addition, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIAdditionCompositing]
+[CIAttributeFilterDisplayName: Affine Clamp, CIAttributeFilterName: CIAffineClamp, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTransform: {
+CIAttributeClass = NSValue;
+CIAttributeDefault = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+CIAttributeIdentity = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Affine Tile, CIAttributeFilterName: CIAffineTile, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTransform: {
+CIAttributeClass = NSValue;
+CIAttributeDefault = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+CIAttributeIdentity = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Affine Transform, CIAttributeFilterName: CIAffineTransform, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTransform: {
+CIAttributeClass = NSValue;
+CIAttributeDefault = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+CIAttributeIdentity = "CGAffineTransform: {{1, 0, 0, 1}, {0, 0}}";
+CIAttributeType = CIAttributeTypeTransform;
+}, CIAttributeFilterCategories: (
+CICategoryGeometryAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Area Histogram, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryReduction,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterName: CIAreaHistogram, inputCount: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 64;
+CIAttributeMax = 256;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 256;
+CIAttributeSliderMin = 10;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputExtent: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 300 300]";
+CIAttributeType = CIAttributeTypeRectangle;
+}]
+[inputCompactStyle: {
+CIAttributeClass = NSNumber;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+}, CIAttributeFilterDisplayName: Aztec Code Generator, inputMessage: {
+CIAttributeClass = NSData;
+}, inputCorrectionLevel: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 23;
+CIAttributeMax = 95;
+CIAttributeMin = 5;
+CIAttributeSliderMax = 95;
+CIAttributeSliderMin = 5;
+}, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputLayers: {
+CIAttributeClass = NSNumber;
+CIAttributeMax = 32;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 32;
+CIAttributeSliderMin = 1;
+}, CIAttributeFilterName: CIAztecCodeGenerator]
+[CIAttributeFilterDisplayName: Bars Swipe Transition, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "3.141592653589793";
+CIAttributeSliderMax = "6.283185307179586";
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIBarsSwipeTransition, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 30;
+CIAttributeMin = 2;
+CIAttributeSliderMax = 300;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputBarOffset: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 10;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}]
+[CIAttributeFilterDisplayName: Blend With Alpha Mask, inputMaskImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIBlendWithAlphaMask]
+[CIAttributeFilterDisplayName: Blend With Mask, inputMaskImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIBlendWithMask]
+[CIAttributeFilterDisplayName: Bloom, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIBloom, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 10;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Bump Distortion, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterName: CIBumpDistortion, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 600;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Bump Distortion Linear, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeSliderMax = "6.283185307179586";
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIBumpDistortionLinear, inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeIdentity = 1;
+CIAttributeMin = "-1";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 600;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Checkerboard, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+}, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICheckerboardGenerator, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 80;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 1)";
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Circle Splash Distortion, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICircleSplashDistortion, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 150;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1000;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Circular Screen, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryHalftoneEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICircularScreen, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 6;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 50;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.7";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Code128 Barcode Generator, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICode128BarcodeGenerator, inputQuietSpace: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 7;
+CIAttributeMax = 20;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 20;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputMessage: {
+CIAttributeClass = NSData;
+}]
+[CIAttributeFilterDisplayName: Color Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorBlendMode]
+[CIAttributeFilterDisplayName: Color Burn Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorBurnBlendMode]
+[CIAttributeFilterDisplayName: Color Clamp, inputMinComponents: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0]";
+}, CIAttributeFilterName: CIColorClamp, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputMaxComponents: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[1 1 1 1]";
+}]
+[inputBrightness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterDisplayName: Color Controls, inputSaturation: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeSliderMax = 2;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorControls, inputContrast: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeSliderMax = 4;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[inputCoefficients: {
+CIAttributeClass = CIVector;
+}, CIAttributeFilterDisplayName: Color Cross Polynomial, inputRedCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[1 0 0 0 0 0 0 0 0 0]";
+CIAttributeIdentity = "[1 0 0 0 0 0 0 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorCrossPolynomial, inputGreenCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0 0 0 0 0 0 0]";
+CIAttributeIdentity = "[0 1 0 0 0 0 0 0 0 0]";
+}, inputBlueCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 1 0 0 0 0 0 0 0]";
+CIAttributeIdentity = "[0 0 1 0 0 0 0 0 0 0]";
+}]
+[CIAttributeFilterDisplayName: Color Cube, CIAttributeFilterName: CIColorCube, inputCubeDimension: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 2;
+CIAttributeIdentity = 2;
+CIAttributeMax = 64;
+CIAttributeMin = 2;
+CIAttributeType = CIAttributeTypeCount;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputCubeData: {
+CIAttributeClass = NSData;
+CIAttributeDefault = <00000000 00000000 00000000 0000803f 0000803f 00000000 00000000 0000803f 00000000 0000803f 00000000 0000803f 0000803f 0000803f 00000000 0000803f 00000000 00000000 0000803f 0000803f 0000803f 00000000 0000803f 0000803f 00000000 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f>;
+CIAttributeIdentity = <00000000 00000000 00000000 0000803f 0000803f 00000000 00000000 0000803f 00000000 0000803f 00000000 0000803f 0000803f 0000803f 00000000 0000803f 00000000 00000000 0000803f 0000803f 0000803f 00000000 0000803f 0000803f 00000000 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f>;
+}]
+[inputCubeDimension: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 2;
+CIAttributeIdentity = 2;
+CIAttributeMax = 64;
+CIAttributeMin = 2;
+CIAttributeType = CIAttributeTypeCount;
+}, CIAttributeFilterDisplayName: Color Cube with ColorSpace, inputColorSpace: {
+CIAttributeClass = NSObject;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterName: CIColorCubeWithColorSpace, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputCubeData: {
+CIAttributeClass = NSData;
+CIAttributeDefault = <00000000 00000000 00000000 0000803f 0000803f 00000000 00000000 0000803f 00000000 0000803f 00000000 0000803f 0000803f 0000803f 00000000 0000803f 00000000 00000000 0000803f 0000803f 0000803f 00000000 0000803f 0000803f 00000000 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f>;
+CIAttributeIdentity = <00000000 00000000 00000000 0000803f 0000803f 00000000 00000000 0000803f 00000000 0000803f 00000000 0000803f 0000803f 0000803f 00000000 0000803f 00000000 00000000 0000803f 0000803f 0000803f 00000000 0000803f 0000803f 00000000 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f 0000803f>;
+}]
+[CIAttributeFilterDisplayName: Color Dodge Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorDodgeBlendMode]
+[CIAttributeFilterDisplayName: Color Invert, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorInvert]
+[CIAttributeFilterDisplayName: Color Map, inputGradientImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorMap]
+[inputBVector: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 1 0]";
+CIAttributeIdentity = "[0 0 1 0]";
+}, CIAttributeFilterDisplayName: Color Matrix, inputRVector: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[1 0 0 0]";
+CIAttributeIdentity = "[1 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorMatrix, inputGVector: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0]";
+CIAttributeIdentity = "[0 1 0 0]";
+}, inputAVector: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 1]";
+CIAttributeIdentity = "[0 0 0 1]";
+}, inputBiasVector: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0]";
+CIAttributeIdentity = "[0 0 0 0]";
+}]
+[CIAttributeFilterDisplayName: Color Monochrome, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0.6 0.45 0.3 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterName: CIColorMonochrome, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[inputRedCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0]";
+CIAttributeIdentity = "[0 1 0 0]";
+}, CIAttributeFilterDisplayName: Color Polynomial, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorPolynomial, inputGreenCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0]";
+CIAttributeIdentity = "[0 1 0 0]";
+}, inputBlueCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0]";
+CIAttributeIdentity = "[0 1 0 0]";
+}, inputAlphaCoefficients: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 1 0 0]";
+CIAttributeIdentity = "[0 1 0 0]";
+}]
+[CIAttributeFilterDisplayName: Color Posterize, inputLevels: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 6;
+CIAttributeIdentity = 300;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 30;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIColorPosterize]
+[CIAttributeFilterDisplayName: Constant Color, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 0 0 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIConstantColorGenerator]
+[CIAttributeFilterDisplayName: 3X3 Convolution, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIConvolution3X3, inputBias: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+}, inputWeights: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0 1 0 0 0 0]";
+CIAttributeIdentity = "[0 0 0 0 1 0 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: 5X5 Convolution, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIConvolution5X5, inputBias: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+}, inputWeights: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]";
+CIAttributeIdentity = "[0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Horizontal 9 Convolution, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIConvolution9Horizontal, inputBias: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+}, inputWeights: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0 1 0 0 0 0]";
+CIAttributeIdentity = "[0 0 0 0 1 0 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Vertical 9 Convolution, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIConvolution9Vertical, inputBias: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+}, inputWeights: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 0 0 1 0 0 0 0]";
+CIAttributeIdentity = "[0 0 0 0 1 0 0 0 0]";
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Copy Machine, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = "6.283185307179586";
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICopyMachineTransition, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 200;
+CIAttributeIdentity = 200;
+CIAttributeMin = "0.1";
+CIAttributeSliderMax = 500;
+CIAttributeSliderMin = "0.1";
+CIAttributeType = CIAttributeTypeDistance;
+}, inputExtent: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 300 300]";
+CIAttributeType = CIAttributeTypeRectangle;
+}, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0.6 1 0.8 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputOpacity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "1.3";
+CIAttributeIdentity = "1.3";
+CIAttributeMin = 0;
+CIAttributeSliderMax = 3;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Crop, inputRectangle: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[-8.98847e+307 -8.98847e+307 1.79769e+308 1.79769e+308]";
+CIAttributeIdentity = "[-8.98847e+307 -8.98847e+307 1.79769e+308 1.79769e+308]";
+CIAttributeType = CIAttributeTypeRectangle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryGeometryAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CICrop]
+[CIAttributeFilterDisplayName: Darken Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDarkenBlendMode]
+[CIAttributeFilterDisplayName: Difference Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDifferenceBlendMode]
+[inputMaskImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterDisplayName: Disintegrate With Mask, inputShadowRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 8;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 50;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDisintegrateWithMaskTransition, inputShadowDensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.65";
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputShadowOffset: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 -10]";
+CIAttributeIdentity = "[0 0]";
+CIAttributeType = CIAttributeTypeOffset;
+}]
+[CIAttributeFilterDisplayName: Dissolve, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDissolveTransition, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Divide Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDivideBlendMode]
+[CIAttributeFilterDisplayName: Dot Screen, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryHalftoneEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIDotScreen, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 6;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 50;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.7";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Eightfold Reflected Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIEightfoldReflectedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Exclusion Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIExclusionBlendMode]
+[CIAttributeFilterDisplayName: Exposure Adjust, CIAttributeFilterName: CIExposureAdjust, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), inputEV: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 10;
+CIAttributeSliderMin = "-10";
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: False Color, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 0.9 0.8 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0.3 0 0 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIFalseColor]
+[inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 0.8 0.6 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputStriationStrength: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeMin = 0;
+CIAttributeSliderMax = 3;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterName: CIFlashTransition, CIAttributeFilterDisplayName: Flash, inputExtent: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 300 300]";
+CIAttributeType = CIAttributeTypeRectangle;
+}, inputFadeThreshold: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.85";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputStriationContrast: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "1.375";
+CIAttributeMin = 0;
+CIAttributeSliderMax = 5;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputMaxStriationRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "2.58";
+CIAttributeMin = 0;
+CIAttributeSliderMax = 10;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[inputAcuteAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "1.570796326794897";
+CIAttributeIdentity = "1.570796326794897";
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, CIAttributeFilterDisplayName: Fourfold Reflected Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIFourfoldReflectedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Fourfold Rotated Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIFourfoldRotatedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[inputAcuteAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "1.570796326794897";
+CIAttributeIdentity = "1.570796326794897";
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, CIAttributeFilterDisplayName: Fourfold Translated Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIFourfoldTranslatedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Gamma Adjust, CIAttributeFilterName: CIGammaAdjust, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputPower: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 4;
+CIAttributeSliderMin = "0.25";
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Gaussian Blur, CIAttributeFilterName: CIGaussianBlur, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 10;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryBlur,
+CICategoryStillImage,
+CICategoryVideo,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Gaussian Gradient, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterCategories: (
+CICategoryGradient,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIGaussianGradient, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 0)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Glass Distortion, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 200;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 500;
+CIAttributeSliderMin = "0.01";
+CIAttributeType = CIAttributeTypeDistance;
+}, CIAttributeFilterName: CIGlassDistortion, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputTexture: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Glide Reflected Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIGlideReflectedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Gloom, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIGloom, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 10;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Hard Light Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHardLightBlendMode]
+[CIAttributeFilterDisplayName: Hatched Screen, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryHalftoneEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHatchedScreen, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 6;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 50;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.7";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Highlights and Shadows, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHighlightShadowAdjust, inputHighlightAmount: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "0.3";
+CIAttributeType = CIAttributeTypeScalar;
+}, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 10;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputShadowAmount: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = "-1";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Histogram Display, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryReduction,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHistogramDisplayFilter, inputLowLimit: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputHighLimit: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputHeight: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMax = 200;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Hole Distortion, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHoleDistortion, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 150;
+CIAttributeIdentity = "0.1";
+CIAttributeMin = "0.01";
+CIAttributeSliderMax = 1000;
+CIAttributeSliderMin = "0.01";
+CIAttributeType = CIAttributeTypeDistance;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}]
+[CIAttributeFilterDisplayName: Hue Adjust, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHueAdjust]
+[CIAttributeFilterDisplayName: Hue Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIHueBlendMode]
+[CIAttributeFilterDisplayName: Lanczos Scale Transform, inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = "1.5";
+CIAttributeSliderMin = "0.05";
+CIAttributeType = CIAttributeTypeScalar;
+}, inputAspectRatio: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = "2.5";
+CIAttributeSliderMin = "0.05";
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryGeometryAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILanczosScaleTransform]
+[CIAttributeFilterDisplayName: Lighten Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILightenBlendMode]
+[CIAttributeFilterDisplayName: Light Tunnel, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILightTunnel, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 500;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputRotation: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "1.570796326794897";
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Linear Burn Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILinearBurnBlendMode]
+[CIAttributeFilterDisplayName: Linear Dodge Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILinearDodgeBlendMode]
+[CIAttributeFilterDisplayName: Linear Gradient, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterCategories: (
+CICategoryGradient,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILinearGradient, inputPoint1: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[200 200]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputPoint0: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Linear to sRGB Tone Curve, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILinearToSRGBToneCurve]
+[CIAttributeFilterDisplayName: Line Screen, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryHalftoneEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILineScreen, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 6;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 50;
+CIAttributeSliderMin = 2;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.7";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Luminosity Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CILuminosityBlendMode]
+[CIAttributeFilterDisplayName: Mask to Alpha, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMaskToAlpha]
+[CIAttributeFilterDisplayName: Maximum Component, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMaximumComponent]
+[CIAttributeFilterDisplayName: Maximum, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMaximumCompositing]
+[CIAttributeFilterDisplayName: Minimum Component, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMinimumComponent]
+[CIAttributeFilterDisplayName: Minimum, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMinimumCompositing]
+[CIAttributeFilterDisplayName: Mod, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 2;
+CIAttributeSliderMax = "6.283185307179586";
+CIAttributeSliderMin = "-6.283185307179586";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIModTransition, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 150;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCompression: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 100;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Multiply Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMultiplyBlendMode]
+[CIAttributeFilterDisplayName: Multiply, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIMultiplyCompositing]
+[CIAttributeFilterDisplayName: Overlay Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIOverlayBlendMode]
+[CIAttributeFilterDisplayName: Perspective Correction, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryGeometryAdjustment,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIPerspectiveCorrection, inputBottomLeft: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[155 153]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputTopLeft: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[118 484]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputBottomRight: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[548 140]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputTopRight: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[646 507]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Photo Effect Chrome, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectChrome]
+[CIAttributeFilterDisplayName: Photo Effect Fade, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectFade]
+[CIAttributeFilterDisplayName: Photo Effect Instant, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectInstant]
+[CIAttributeFilterDisplayName: Photo Effect Mono, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectMono]
+[CIAttributeFilterDisplayName: Photo Effect Noir, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectNoir]
+[CIAttributeFilterDisplayName: Photo Effect Process, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectProcess]
+[CIAttributeFilterDisplayName: Photo Effect Tonal, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectTonal]
+[CIAttributeFilterDisplayName: Photo Effect Transfer, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), CIAttributeFilterName: CIPhotoEffectTransfer]
+[CIAttributeFilterDisplayName: Pinch Distortion, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 2;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterName: CIPinchDistortion, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1000;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Pin Light Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIPinLightBlendMode]
+[CIAttributeFilterDisplayName: Pixelate, inputScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 8;
+CIAttributeIdentity = 1;
+CIAttributeMin = 1;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, CIAttributeFilterName: CIPixellate, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryStylize,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: QRCode Generator, inputCorrectionLevel: {
+CIAttributeClass = NSString;
+CIAttributeDefault = M;
+}, CIAttributeFilterName: CIQRCodeGenerator, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputMessage: {
+CIAttributeClass = NSData;
+}]
+[inputRadius0: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 5;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, CIAttributeFilterDisplayName: Radial Gradient, inputRadius1: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterCategories: (
+CICategoryGradient,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIRadialGradient, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Random Generator, CIAttributeFilterName: CIRandomGenerator, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+)]
+[CIAttributeFilterDisplayName: Saturation Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISaturationBlendMode]
+[CIAttributeFilterDisplayName: Screen Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIScreenBlendMode]
+[CIAttributeFilterDisplayName: Sepia Tone, CIAttributeFilterName: CISepiaTone, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryStillImage,
+CICategoryBuiltIn,
+CICategoryXMPSerializable
+), inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Sharpen Luminance, CIAttributeFilterName: CISharpenLuminance, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategorySharpen,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.4";
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = 2;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Sixfold Reflected Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISixfoldReflectedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Sixfold Rotated Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISixfoldRotatedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Smooth Linear Gradient, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, CIAttributeFilterCategories: (
+CICategoryGradient,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISmoothLinearGradient, inputPoint1: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[200 200]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputPoint0: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Soft Light Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISoftLightBlendMode]
+[CIAttributeFilterDisplayName: Source Atop, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISourceAtopCompositing]
+[CIAttributeFilterDisplayName: Source In, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISourceInCompositing]
+[CIAttributeFilterDisplayName: Source Out, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISourceOutCompositing]
+[CIAttributeFilterDisplayName: Source Over, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryHighDynamicRange,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISourceOverCompositing]
+[CIAttributeFilterDisplayName: sRGB Tone Curve to Linear, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISRGBToneCurveToLinear]
+[inputCrossOpacity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "-2";
+CIAttributeMin = "-8";
+CIAttributeSliderMax = 0;
+CIAttributeSliderMin = "-8";
+CIAttributeType = CIAttributeTypeScalar;
+}, CIAttributeFilterDisplayName: Star Shine, inputCrossWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "2.5";
+CIAttributeMin = 0;
+CIAttributeSliderMax = 10;
+CIAttributeSliderMin = "0.5";
+CIAttributeType = CIAttributeTypeDistance;
+}, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIStarShineGenerator, inputCrossAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.6";
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputEpsilon: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "-2";
+CIAttributeMin = "-8";
+CIAttributeSliderMax = 0;
+CIAttributeSliderMin = "-8";
+CIAttributeType = CIAttributeTypeScalar;
+}, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 50;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 300;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 0.8 0.6 1)";
+}, inputCrossScale: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 15;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Straighten, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryGeometryAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIStraightenFilter]
+[CIAttributeFilterDisplayName: Stripes, inputColor0: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+}, CIAttributeFilterCategories: (
+CICategoryGenerator,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIStripesGenerator, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 80;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputSharpness: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputColor1: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(0 0 0 1)";
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Subtract Blend Mode, inputBackgroundImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryCompositeOperation,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISubtractBlendMode]
+[CIAttributeFilterDisplayName: Swipe, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputTargetImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTransition,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CISwipeTransition, inputTime: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeTime;
+}, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeMin = "0.1";
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = "0.1";
+CIAttributeType = CIAttributeTypeDistance;
+}, inputExtent: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0 300 300]";
+CIAttributeType = CIAttributeTypeRectangle;
+}, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputOpacity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Temperature and Tint, inputNeutral: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[6500 0]";
+CIAttributeIdentity = "[6500 0]";
+CIAttributeType = CIAttributeTypeOffset;
+}, CIAttributeFilterName: CITemperatureAndTint, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), inputTargetNeutral: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[6500 0]";
+CIAttributeIdentity = "[6500 0]";
+CIAttributeType = CIAttributeTypeOffset;
+}]
+[CIAttributeFilterDisplayName: Tone Curve, inputPoint2: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0.5 0.5]";
+CIAttributeIdentity = "[0.5 0.5]";
+CIAttributeType = CIAttributeTypeOffset;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIToneCurve, inputPoint1: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0.25 0.25]";
+CIAttributeIdentity = "[0.25 0.25]";
+CIAttributeType = CIAttributeTypeOffset;
+}, inputPoint4: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[1 1]";
+CIAttributeIdentity = "[1 1]";
+CIAttributeType = CIAttributeTypeOffset;
+}, inputPoint3: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0.75 0.75]";
+CIAttributeIdentity = "[0.75 0.75]";
+CIAttributeType = CIAttributeTypeOffset;
+}, inputPoint0: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[0 0]";
+CIAttributeIdentity = "[0 0]";
+CIAttributeType = CIAttributeTypeOffset;
+}]
+[CIAttributeFilterDisplayName: Triangle Kaleidoscope, inputPoint: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CITriangleKaleidoscope, inputSize: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 700;
+CIAttributeSliderMax = 1000;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputRotation: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "5.924285296593801";
+CIAttributeSliderMax = "6.283185307179586";
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeAngle;
+}, inputDecay: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.85";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Twelvefold Reflected Tile, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "3.141592653589793";
+CIAttributeSliderMin = "-3.141592653589793";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryTileEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CITwelvefoldReflectedTile, inputWidth: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 100;
+CIAttributeIdentity = 100;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 200;
+CIAttributeSliderMin = 1;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Twirl Distortion, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "3.141592653589793";
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "12.56637061435917";
+CIAttributeSliderMin = "-12.56637061435917";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CITwirlDistortion, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeIdentity = 300;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 500;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: Unsharp Mask, CIAttributeFilterCategories: (
+CICategorySharpen,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIUnsharpMask, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "2.5";
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 100;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Vibrance, inputAmount: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = "-1";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIVibrance]
+[CIAttributeFilterDisplayName: Vignette, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIVignette, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeMax = 2;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 2;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 0;
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = "-1";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Vignette Effect, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorEffect,
+CICategoryVideo,
+CICategoryInterlaced,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIVignetteEffect, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 150;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 2000;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputFalloff: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "0.5";
+CIAttributeMax = 1;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeScalar;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}, inputIntensity: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 1;
+CIAttributeIdentity = 0;
+CIAttributeMax = 1;
+CIAttributeMin = "-1";
+CIAttributeSliderMax = 1;
+CIAttributeSliderMin = "-1";
+CIAttributeType = CIAttributeTypeScalar;
+}]
+[CIAttributeFilterDisplayName: Vortex Distortion, inputAngle: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = "56.54866776461628";
+CIAttributeIdentity = 0;
+CIAttributeSliderMax = "94.24777960769379";
+CIAttributeSliderMin = "-94.24777960769379";
+CIAttributeType = CIAttributeTypeAngle;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryDistortionEffect,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIVortexDistortion, inputRadius: {
+CIAttributeClass = NSNumber;
+CIAttributeDefault = 300;
+CIAttributeIdentity = 0;
+CIAttributeMin = 0;
+CIAttributeSliderMax = 800;
+CIAttributeSliderMin = 0;
+CIAttributeType = CIAttributeTypeDistance;
+}, inputCenter: {
+CIAttributeClass = CIVector;
+CIAttributeDefault = "[150 150]";
+CIAttributeType = CIAttributeTypePosition;
+}]
+[CIAttributeFilterDisplayName: White Point Adjust, inputColor: {
+CIAttributeClass = CIColor;
+CIAttributeDefault = "(1 1 1 1)";
+CIAttributeIdentity = "(1 1 1 1)";
+CIAttributeType = CIAttributeTypeColor;
+}, inputImage: {
+CIAttributeClass = CIImage;
+CIAttributeType = CIAttributeTypeImage;
+}, CIAttributeFilterCategories: (
+CICategoryColorAdjustment,
+CICategoryVideo,
+CICategoryStillImage,
+CICategoryInterlaced,
+CICategoryNonSquarePixels,
+CICategoryBuiltIn
+), CIAttributeFilterName: CIWhitePointAdjust]
+5
+filter indexID[0]
+filter indexID[1]
+filter indexID[2]
+filter indexID[3]
+photoButtonPressed()
+
